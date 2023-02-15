@@ -1,0 +1,98 @@
+
+/* Main Line */
+.mainLine
+{
+  padding: 2% 10%;
+  background-color: #913175;
+  
+}
+.header
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #E9E8E8;
+  text-align: center;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  
+
+}
+/* Introduction */
+
+#introduction
+{
+  padding: 1% 12%;
+  background-color: #20262E;
+  color: #E9E8E8;
+  
+}
+
+.introduction-text
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.introduction-text-helpful
+{
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+/* Title */
+#title
+{
+  padding: 3% 15% 5%;
+  background-color: #20262E;
+  color: #E9E8E8;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-text
+{
+  line-height: 1.5;
+}
+
+
+.title-image
+{
+  width: 40%;
+
+}
+
+
+.signButton {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Footer */
+.bottom-container {
+  background-color: #3C4048;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #EAF6F6;
+  padding: 1%;
+ 
+}
+
+.footer-link
+{
+  color: #EAF6F6;
+  text-decoration: none;
+  margin: 2%;
+
+}
+
+.copyright {
+ 
+font-size: 1rem;
+  padding: 20px 0;
+}
