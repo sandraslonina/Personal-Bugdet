@@ -1,5 +1,5 @@
 
-/* Main Line */
+/* Heading */
 .mainLine
 {
   padding: 2% 10%;
@@ -46,6 +46,7 @@
 }
 
 /* Title */
+
 #title
 {
   padding: 3% 15% 5%;
@@ -64,7 +65,6 @@
 .title-image
 {
   width: 40%;
-
 }
 
 
@@ -73,8 +73,8 @@
 }
 
 
-
 /* Footer */
+
 .bottom-container {
   background-color: #3C4048;
   text-align: center;
@@ -99,7 +99,7 @@ font-size: 1rem;
 }
 
 
-/* signIn */
+/* Sign In */
 
 .user-image
 {
@@ -107,6 +107,8 @@ font-size: 1rem;
   width: 10%;
 
 }
+
+/* Sign Up */
 
 .customer-image
 {
@@ -133,15 +135,16 @@ font-size: 1rem;
   font-size: 1.2rem;
 }
 
+/* Menu */
 
-#heading
+#menu
 {
   font-family: 'Montserrat', sans-serif; 
   font-size: 1.5rem;
 }
 
 
-.budget-bottom
+.menu-bottom
 {
   background-color: #20262E;
   color: #E9E8E8;
@@ -149,7 +152,7 @@ font-size: 1rem;
   padding: 3% 15% 5%;
 }
   
-
+/* Income */
 
 .budget-image
 {
@@ -162,4 +165,10 @@ font-size: 1rem;
 {
   font-family: 'Montserrat', sans-serif; 
   line-height: 1.5;
+}
+
+.income-image
+{
+  width: 15%;
+  margin-top: 10px;
 }

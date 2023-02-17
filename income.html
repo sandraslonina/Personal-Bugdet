@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="pl">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Menu</title>
+  <meta charset="UTF-8">
+  <title>Dodaj przychód</title>
 
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
@@ -25,17 +23,15 @@
   <!-- Fontawesome.com -->
   <script src="https://kit.fontawesome.com/cc83c43d74.js" crossorigin="anonymous"></script>
 
-
 </head>
 
 <!-- Heading -->
+
 <header>
   <div class="mainLine">
     <h1 class="header">Budżet Osobisty.com</h1>
   </div>
 </header>
-
-
 
 <body>
 
@@ -49,7 +45,7 @@
       <div class="p-3 mb-2 bg-dark ">
 
         <nav class="navbar navbar-expand-lg navbar-dark">
-          
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -81,28 +77,71 @@
       </div>
     </nav>
 
-    <div class="menu-bottom">
-
-      <h1 class="text-menu">Cześć Sandra!</h1>
-      <h2 class="text-menu">Wybierz opcję z menu głównego</h2>
-
-      <img class="budget-image" src="images/budget.png" alt="budget-img">
-
-
-    </div>
   </section>
 
 
+  <!-- Income -->
 
+  <section id="income">
 
+    <div class="p-3 mb-2 bg-dark">
 
+      <div class="income">
+        <div style="text-align: center"><img class="income-image" src="images/incoming.png" alt="incoming-img">
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="row">
 
+          <div class="col-12 col-lg-4 offset-lg-4 text-center">
+            <h1 class="text-container">Przychód</h1>
 
+            <div class="input-group mb-3">
+              <button class="btn btn-outline-secondary btn-lg" type="button" aria-expanded="false"><i
+                  class="fa-solid fa-dollar-sign"></i> Kwota</button>
+              <button class="btn btn-outline-secondary btn-lg" type="button" aria-expanded="false">0.00</button>
+              <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+            </div>
 
+            <div class="input-group mb-3">
+              <button class="btn btn-outline-secondary btn-lg" type="button" aria-expanded="false"><i
+                  class="fa-regular fa-calendar-days"></i> Data</button>
+              <button class="btn btn-outline-secondary btn-lg" type="button" aria-expanded="false">dd-mm-yy</button>
+              <input type="text" class="form-control" aria-label="Server">
+            </div>
 
+            <div class="input-group mb-3">
+              <button class="btn btn-outline-secondary dropdown-toggle btn-lg" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><i class="fa-solid fa-layer-group"></i> Kategoria</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Wynagrodzenie</a></li>
+                <li><a class="dropdown-item" href="#">Odsetki bankowe</a></li>
+                <li><a class="dropdown-item" href="#">Sprzedaż na allegro</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Inne</a></li>
+              </ul>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            </div>
 
+            <div class="input-group">
+              <button class="btn btn-outline-secondary btn-lg" type="button" aria-expanded="false"><i
+                  class="fa-solid fa-comments"></i> Komentarz</button>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
 
+            <a class="btn btn-outline-success btn-lg signButton" href="#" role="button"><i
+                class="fa-solid fa-thumbs-up"></i> Zatwierdź</a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
 </body>
 
