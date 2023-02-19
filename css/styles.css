@@ -1,14 +1,11 @@
-
 /* Heading */
-.mainLine
-{
+.mainLine {
   padding: 2% 10%;
   background-color: #913175;
   margin: 0px;
-  
 }
-.header
-{
+
+.header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   color: #E9E8E8;
@@ -16,21 +13,17 @@
   font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 5px;
-  
-
 }
+
 /* Introduction */
 
-#introduction
-{
+#introduction {
   padding: 1% 12%;
   background-color: #20262E;
   color: #E9E8E8;
-  
 }
 
-.introduction-text
-{
+.introduction-text {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
@@ -38,8 +31,7 @@
   padding: 3% 15%;
 }
 
-.introduction-text-helpful
-{
+.introduction-text-helpful {
   font-family: 'Montserrat', sans-serif;
   text-align: right;
   font-size: 1.5rem;
@@ -47,8 +39,7 @@
 
 /* Title */
 
-#title
-{
+#title {
   padding: 3% 15% 5%;
   background-color: #20262E;
   color: #E9E8E8;
@@ -56,14 +47,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.title-text
-{
+.title-text {
   line-height: 1.5;
 }
 
 
-.title-image
-{
+.title-image {
   width: 40%;
 }
 
@@ -81,94 +70,122 @@
   font-family: 'Montserrat', sans-serif;
   color: #EAF6F6;
   padding: 1%;
- 
 }
 
-.footer-link
-{
+.footer-link {
   color: #EAF6F6;
   text-decoration: none;
   margin: 2%;
-
 }
 
 .copyright {
- 
-font-size: 1rem;
+  font-size: 1rem;
   padding: 20px 0;
 }
 
 
 /* Sign In */
 
-.user-image
-{
+.user-image {
   margin-top: 20px;
   width: 10%;
-
 }
 
 /* Sign Up */
 
-.customer-image
-{
+.customer-image {
   margin-top: 20px;
   width: 10%;
-
 }
 
-.container
-{
+.container {
   color: #E9E8E8;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
   padding: 3% 15% 5%;
 }
 
-.text-container
-{
+.text-container {
   margin-bottom: 50px;
 }
 
-.mb-3
-{
-  font-family: 'Montserrat', sans-serif; 
+.mb-3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
 }
 
 /* Menu */
 
-#menu
-{
-  font-family: 'Montserrat', sans-serif; 
+#menu {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
 
 
-.menu-bottom
-{
+.menu-bottom {
   background-color: #20262E;
   color: #E9E8E8;
   text-align: center;
   padding: 3% 15% 5%;
 }
-  
+
 /* Income */
 
-.budget-image
-{
+.budget-image {
   width: 30%;
   margin-top: 30px;
 }
 
 
-.text-menu
-{
-  font-family: 'Montserrat', sans-serif; 
+.text-menu {
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
 }
 
-.income-image
-{
+.income-image {
   width: 15%;
   margin-top: 10px;
+}
+
+
+/* Balance */
+
+#balance {
+  text-align: center;
+}
+
+.routine-image {
+  width: 15%;
+  margin-top: 20px;
+}
+
+
+.balance-top {
+  background-color: #20262E;
+  color: #E9E8E8;
+  text-align: center;
+  padding: 3% 15% 5%;
+}
+
+.incomes-text {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: green;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.expence-text {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: red;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.balance-text {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: yellow;
+  text-align: center;
+  font-size: 2rem;
 }
